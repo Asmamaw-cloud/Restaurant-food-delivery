@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Featured from "@/components/Featured";
+import Offer from "@/components/Offer";
+import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      hello world
+    <div className="">
+      <Slider/>
+      <Featured/>
+      <Offer/>
     </div>
   );
 }
