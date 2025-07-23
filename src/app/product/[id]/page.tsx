@@ -1,5 +1,5 @@
-import Price from '@/src/components/Price'
-import { singleProduct } from '@/src/data'
+import Price from '@/components/Price'
+import { singleProduct } from '@/data'
 import Image from 'next/image'
 import React from 'react'
 
